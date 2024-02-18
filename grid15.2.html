@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s{
+            height: 650px;
+            width: 540px;
+            background-color: palevioletred;
+            border: solid;
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px;
+            grid-template-rows:100px ;
+            gap: 10px ;       
+         }
+        .t1{
+            background-color: aqua;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start:1;
+            grid-row-end:5;
+        
+        }
+        .t2{
+            background-color: aquamarine;
+            grid-column-start: 2;
+            grid-column-end: 6;
+            
+        }
+        .t3,.t4,.t5,.t6{
+            background-color: aquamarine;
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+    
+
+
+    </style>
+</head>
+<body>
+<div class="s" >
+    <div class="t1"><img src="./himalayas.jpg" height="100%" width="100%"/></div>
+    <div class="t2"><img src="./clouds.jpg" height="100%" width="100%"></div>
+    <div class="t3"><img src="./tree.jpg" height="100%" width="100%"></div>
+    <div class="t4"><img src="./imagebutterfly.jpg" height="100%" width="100%"></div>
+    <div class="t5"><img src="./imagehome.jpg" height="100%" width="100%"></div>
+    <div class="t6"><img src="./nature.jpg" height="100%" width="100%"></div>
+    
+</div>
+</body>
+</html>
